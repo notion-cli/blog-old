@@ -10,10 +10,18 @@ _Notion is a **Node.js toolchain manager**, making sure you always get the right
 
 If you’re reading this, it’s probably because one of our contributors reached out to you for early feedback. (Thank you!) Either that, or word spread faster than we expected… 😝
 
-To get started using Notion, you can install the current snapshot with this command:
+To get started using Notion, you can install the current snapshot with:
+
+**Mac:**
 
 ```shell
-$ curl https://github.com/notion-cli/notion/archive/notion-0.1.0-install.sh | bash
+$ curl https://github.com/notion-cli/notion/releases/download/v0.1.0/notion-0.1.0-macos.sh -sSLf | bash
+```
+
+**Linux:**
+
+```shell
+$ curl https://github.com/notion-cli/notion/releases/download/v0.1.0/notion-0.1.0-linux.sh -sSLf | bash
 ```
 
 Then when you open a new terminal, you should be able to run Notion---you can explore its usage by typing `notion help`.
